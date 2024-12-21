@@ -5,8 +5,15 @@ name = "server-sg" # todo
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routers]]
-pattern = "shop.example.com"
+pattern = "sg1.ibnuopenwrt.my.id"
 custom_domain = true
+[[routers]]
+pattern = "nontontv.vidio.com.sg1.ibnuopenwrt.my.id"
+custom_domain = true
+[[routers]]
+pattern = "quiz.int.vidio.com.sg1.ibnuopenwrt.my.id"
+custom_domain = true
+
 
 [vars]
 # UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
